@@ -1,0 +1,6 @@
+name: "Action Code Backup"
+author: "OrxaGrid"
+description: "Mirror a repository to S3 compatible object storage"
+runs:
+  using: "docker"
+  image: "Dockerfile"
